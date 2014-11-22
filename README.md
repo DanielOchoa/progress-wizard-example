@@ -1,10 +1,10 @@
 # Progress-wizard-example
 
-This is an ember-cli app example that shows a progress bar which state is
-persisted between routes.
+This is an *ember-cli* example app that shows an animated progress bar which
+state is persisted between routes.
 
 This progress var can be very useful when setting a wizard-like guide
-walkthrough on an ember app that spans across multiple routes.
+or walkthrough on an ember app that spans across multiple routes.
 
 ### How?
 
@@ -12,7 +12,9 @@ The progress bar percentage can be set on each route. When navigating between
 these routes the progress bar will be set to the routes `progressPercent`
 property and animate accordingly.
 
+
 ![Progress Wizard](./public/progress-wizard-gif.gif "Progress Wizard")
+
 
 ## Prerequisites
 
