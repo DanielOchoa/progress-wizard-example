@@ -1,0 +1,12 @@
+<header class="header">
+  <h1>Progress Wizard example</h1>
+  <!-- progress bar -->
+  {{#if progressPercent}}
+    {{progress-bar progress=progressPercent}}
+  {{/if}}
+  <!-- end -->
+</header>
+
+<main>
+  {{outlet name='nav'}}
+</main>
