@@ -17,10 +17,10 @@ progress element. See `app/styles/app.css`.
 
 The most importants elements for this example are:
 
-- `progress-bar` component
-- `progress-bar` mixin
-- `progressPercent` property that is set on the routes under the nav route.
-- `css` to animate the progress bar when the width changes.
+- `app/components/progress-bar.js` component
+- `app/mixins/progress-bar.js` mixin
+- `progressPercent` property that is set on the routes under the nav route
+- `app/styles/app.css` styles to animate the progress bar when the width changes
 
 ![Progress Wizard](./public/progress-wizard-gif.gif "Progress Wizard")
 
