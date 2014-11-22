@@ -12,9 +12,10 @@ The progress bar percentage can be set on each route. When navigating between
 these routes the progress bar will be set to the routes `progressPercent`
 property and animate accordingly.
 
+The animated progress works just by setting a css `transition` property on the
+progress element. See `app/styles/app.css`.
 
 ![Progress Wizard](./public/progress-wizard-gif.gif "Progress Wizard")
-
 
 ## Prerequisites
 
