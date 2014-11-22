@@ -15,6 +15,13 @@ property and animate accordingly.
 The animated progress works just by setting a css `transition` property on the
 progress element. See `app/styles/app.css`.
 
+The most importants elements for this progress are:
+
+- `progress-bar` component
+- `progress-bar` mixin
+- `progressPercent` property that is set on the routes under the nav route.
+- `css` to animate the progress bar when the width changes.
+
 ![Progress Wizard](./public/progress-wizard-gif.gif "Progress Wizard")
 
 ## Prerequisites
