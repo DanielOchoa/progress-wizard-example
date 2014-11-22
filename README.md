@@ -15,7 +15,7 @@ property and animate accordingly.
 The animated progress works just by setting a css `transition` property on the
 progress element. See `app/styles/app.css`.
 
-The most importants elements for this progress are:
+The most importants elements for this example are:
 
 - `progress-bar` component
 - `progress-bar` mixin
