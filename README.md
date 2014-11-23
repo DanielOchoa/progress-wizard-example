@@ -21,6 +21,7 @@ The most importants elements for this example are:
 - `app/mixins/progress-bar.js` mixin
 - `progressPercent` property that is set on the routes under the nav route
 - `app/styles/app.css` styles to animate the progress bar when the width changes
+- `app/templates/nav.hbs` template where the component is used
 
 ![Progress Wizard](./public/progress-wizard-gif.gif "Progress Wizard")
 
